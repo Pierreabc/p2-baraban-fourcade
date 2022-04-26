@@ -1,24 +1,15 @@
 {
-  "name": "p2-baraban-fourcade",
+  "name": "package.json",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon app"
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Pierreabc/p2-baraban-fourcade.git"
+    "start": "index.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Pierreabc/p2-baraban-fourcade/issues"
-  },
-  "homepage": "https://github.com/Pierreabc/p2-baraban-fourcade#readme",
   "dependencies": {
     "express": "^4.17.3",
-    "nodemon": "^2.0.15"
+    "mysql2": "^2.3.3"
   }
 }
